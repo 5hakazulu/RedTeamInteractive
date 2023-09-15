@@ -2,22 +2,22 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-    /* background-color: rgb(300, 300, 300); */
+   
 }
 
 
 
 /* NAVBAR SECTION */
 .navbar {
-    background-color: #353535;
+    background-color: #461610;
     -webkit-box-shadow: 0px 21px 33px 0px rgba(0, 0, 0, 0.38);
     -moz-box-shadow: 0px 21px 33px 0px rgba(0, 0, 0, 0.38);
     box-shadow: 0px 21px 33px 0px rgba(0, 0, 0, 0.38);
-    /* position: sticky; */
+    
 }
 
 .nav-link {
-    color: #D9D9D9;
+    color: #ffffff;
     font-size: 1rem;
     font-weight: 700;
     cursor: pointer;
@@ -25,14 +25,14 @@
 }
 
 .nav-link:hover {
-    color: #353535;
+    color: #000000;
     background-color: #D9D9D9;
 }
 
 .navbar-brand {
-    font-size: 1.25rem;
+    font-size: 1.75rem;
     font-weight: 800;
-    color: #D9D9D9;
+    color: #ffffff;
     cursor: pointer;
     text-decoration: none;
 }
@@ -40,7 +40,7 @@
 /* main section */
 
 .main {
-    background: url(./images/Josh_temp.jpg);
+    background: url(./images/SailBackground.jpg);
     background-size: cover;
     width: 100%;
     height: 95vh;
@@ -51,7 +51,7 @@
     font-size: 4.4rem;
     font-weight: 700;
     /* color: #284B63; */
-    color: #353535;
+    color: #000000;
 }
 
 .main h6 {
@@ -67,7 +67,7 @@
 .main .bt1 {
     height: 55px;
     width: 138px;
-    background-color: #284B63;
+    background-color: #461610;
     color: #FFFFFF;
     outline: none;
     border: none;
@@ -76,7 +76,7 @@
 }
 
 .main .bt1:hover {
-    background-color: #1a3040;
+    background-color: #2a0d09;
     transition: 0.5s;
 }
 
@@ -84,15 +84,15 @@
     height: 55px;
     width: 138px;
     background-color: transparent;
-    color: #284B63;
+    color: #461610;
     outline: none;
-    border: 3px solid #284B63;
+    border: 3px solid #461610;
     font-weight: bold;
     border-radius: 5px;
 }
 
 .main .bt2:hover {
-    background-color: #284B63;
+    background-color: #461610;
     transition: 0.4s;
     color: #FFFFFF;
 }
@@ -102,9 +102,18 @@
 .main .title_card {
     background-color: #D9D9D9;
     border-radius: 10px;
+    text-align: center !important;
+    -webkit-box-shadow: 10px 10px 23px 5px rgba(0,0,0,0.52);
+    -moz-box-shadow: 10px 10px 23px 5px rgba(0,0,0,0.52);
+    box-shadow: 10px 10px 23px 5px rgba(0,0,0,0.52);
 }
 
-
+.redTeamLogo{
+    width: 350px !important;
+    text-align: center !important;
+    margin: auto;
+    display: block;
+}
 
 /* .about img {
     -webkit-box-shadow: 10px 10px 24px -7px rgba(0, 0, 0, 0.75);
@@ -124,15 +133,22 @@
 h1 {
     font-size: 3rem;
     font-weight: 900;
+    color: #1d1d1d;
 }
 
 .logo {
     background: transparent;
-    max-height: 100px;
+    max-height:150px;
+    border-radius: 100%;
+    text-align: center;
+    -webkit-box-shadow: 10px 10px 24px -7px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 10px 10px 24px -7px rgba(0, 0, 0, 0.75);
+    box-shadow: 10px 10px 24px -7px rgba(0, 0, 0, 0.75);
 }
 
 .logotext {
-    font-weight: 900;
+    font-size: 1rem;
+    font-weight: 800;
     color: black;
 }
 
@@ -160,9 +176,9 @@ h1 {
     height: 40px;
     width: 145px;
     outline: none;
-    border: 2px solid #284B63;
+    border: 2px solid #461610;
     background-color: transparent;
-    color: #284B63;
+    color: #461610;
     border-radius: 4px;
 }
 
@@ -170,7 +186,7 @@ h1 {
     transition: 0.5s;
     border: none;
     color: white;
-    background-color: #284B63;
+    background-color: #461610;
     border-radius: 4px;
 
 
@@ -183,7 +199,7 @@ h1 {
 }
 
 .services {
-    background-color: #353535;
+    background-color: #1d1d1d;
 }
 
 .services-card {
@@ -199,12 +215,12 @@ h1 {
     color: #353535;
 }
 
-.circle {
+.card .circle {
     height: 70px;
     width: 70px;
     font-weight: 70px;
-    background-color: #D9D9D9;
-    color: #3C6E71;
+    background-color: #1d1d1d ;
+    color: #D9D9D9 ;
     padding: 12px;
     display: inline-block;
     margin-bottom: 20px;
@@ -213,10 +229,10 @@ h1 {
 }
 
 .card:hover .circle {
-    background-color: #3C6E71;
+    background-color: #461610;
     color: #D9D9D9;
     transition: 0.3s;
-    /* border: 2px solid #3C6E71; */
+    
     margin-bottom: 20px;
 }
 
@@ -231,9 +247,12 @@ h1 {
     cursor: pointer;
     letter-spacing: 2px;
 }
+/* .gameCard{
+    background-color: #1d1d1d;
+} */
 
 .port-image {
-    height: 280px;
+    height: 400px;
     /* width: auto; */
     /* overflow: hidden; */
     object-fit: cover;
@@ -241,6 +260,9 @@ h1 {
 
 .item {
     position: relative;
+    background-color: #1d1d1d;
+    border-radius: 5%;
+    
 }
 
 .item:hover {
@@ -248,6 +270,8 @@ h1 {
     -moz-box-shadow: 0px 0px 49px -19px rgba(0, 0, 0, 1);
     box-shadow: 0px 0px 49px -19px rgba(0, 0, 0, 1);
     transition: 0.5s;
+    border-radius: 10%;
+    
 }
 
 .item span {
@@ -255,7 +279,7 @@ h1 {
     top: 40%;
     left: 45%;
     font-size: 40px;
-    color: #3C6E71;
+    color: #461610;
     cursor: pointer;
     opacity: 0;
 }
