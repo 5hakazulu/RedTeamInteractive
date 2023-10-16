@@ -15,16 +15,19 @@
     <link rel="icon" href="/images/favicon.ico" type="image/x-icon" />
 </head>
 
-<body class="container-fluid  gx-0">
+<body class=" container-fluid    gx-0">
 
-    <div class="sticky-top">
+    <div class="fixed-top">
         <nav class="navbar navbar-expand-lg  text-uppercase">
 
             <div class="container-fluid">
                 <a class="navbar-brand font-weight-bold" href="#">Red Team Interactive</a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
                     aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
+                    <!-- <span class="navbar-toggler-icon"></span> -->
+                    <span class="navbar-toggler-icon">   
+                        <i class="fas fa-bars" style="color:#fff; font-size:28px;"></i>
+                    </span>
                 </button>
                 <div class="collapse navbar-collapse " id="navbarNav">
                     <ul class="navbar-nav ms-auto">
@@ -57,28 +60,17 @@
 
     <!-- main section start -->
 
-    <section class="main py-5 container-fluid  ">
-        <div class="container py-5 ">
-            <div class="  row py-5">
+    <section class="main  container-fluid  mt-5 pt-5">
+        <div class=" container  ">
+            <div class="logo-card  row py-lg-5 py-md-2">
                 <div class="">
-                    <div class=" title_card col-lg-5 py-5 px-5 " data-aos="zoom-out" data-aos-easing="ease-out-in">
-                        <div class="row mx-auto  text-center">
-                            <!-- <h3 class=" row mx-3  d-inline-block " data-aos="fade" data-aos-duration="1000"
-                                data-aos-delay="500">
-                                Hello, my name is
+                    <div class=" title_card col-lg-6 col-sm- col-md-6 py-5 px-5" data-aos="zoom-out" data-aos-easing="ease-out-in">
+                        <div class="  mx-auto  text-center">
 
-                            </h3> -->
-                            <img src="./images/RedTeamLogoBlack.png" class="redTeamLogo py-4 px-4 " data-aos="fade" data-aos-duration="1000"
+                            <img src="./images/RedTeamLogoBlack.png" class="redTeamLogo col-lg- py-4 px-4 " data-aos="fade" data-aos-duration="1000"
                             data-aos-delay="600" alt="Red Team Logo">
-                            
 
                         </div>
-                        <!-- <div class="row  d-inline-block">
-                            <h6 class=" title_card_text pt-3   mx-3 " data-aos="fade" data-aos-duration="1000"
-                                data-aos-delay="700">
-                                you killed my father. Prepare to die</h6>
-                        </div> -->
-
 
                         <div class=" button_holder px-3 " data-aos="fade" data-aos-duration="1000"
                             data-aos-delay="900">
@@ -86,9 +78,10 @@
                                 onclick="location.href='#portfolio_section';">
                             <input type="button" class="bt2 mt-5 mx-1" value="Contact Us"
                                 onclick="location.href='#contact_section';">
-                        </div>
+                        </div> 
 
-                    </div>
+
+
                 </div>
 
             </div>
@@ -98,36 +91,42 @@
     <section class="about py-5" id="about_section">
         <div class="container py-5">
             <div class="row">
-                <div class="col-lg-5 about_img text-center" data-aos="fade-right" data-aos-duration="1000">
+                <div class="col-lg-5 about_img text-center align-content-center" data-aos="fade-right" data-aos-duration="1000">
                     <img src="./images/GarettProfessional.jpg" class="img-fluid " alt="">
                     <p class="text-center logotext mt-2">Garett Cook</p>
                     <p class="text-center">CEO and Creator of SAIL VR</p>
                 </div>
-                <div class="col-lg-6 pt-3 mx-5">
+                <div class=" AboutUsSection col-lg-5 col-sm-12 col-xl-5 col-xxl-6 mx-lg-5 mx-sm-1">
                     <div class="row">
                         <h1 data-aos="fade-down" data-aos-duration="1000">About Us</h1>
                         <p data-aos="fade-down" data-aos-duration="1000">VR Game Studio</p>
-                        <p class="py-3" data-aos="fade-down" data-aos-duration="1000"><span
-                                class="fw-bold ">Red Team Interactive,</span> has established a formidable presence in the rapidly evolving landscape of virtual reality gaming. With our flagship game "Sail" already marking a significant impact in VR —taking a top 10 spot on Meta's App Lab with a 4.6 / 5 rating and surpassing 11,000 paid downloads—we're poised for exponential growth. Our online community metrics highlight our unique brand equity with a significant presence across TikTok (67k followers), YouTube (14k subscribers), and Discord ( 5.82k members). Backed by industry-leading firms such as Boost VC, Founders Inc., and Earthling VC, we are currently targeting a capital infusion of $700,000 through a $6 million post-money SAFE to accelerate our development. Red Team Interactive presents a compelling opportunity for investors looking to stake a claim in the promising realm of VR gaming.</p>
+                        <div class="py-3 p-sm-6 " data-aos="fade-down" data-aos-duration="1000">
+                            <p><span class="fw-bold ">Red Team Interactive,</span> has established a formidable presence in the rapidly evolving landscape of virtual reality gaming. With our flagship game "Sail" already marking a significant impact in VR —taking a top 10 spot on Meta's App Lab with a 4.6 / 5 rating and surpassing 11,000 paid downloads—we're poised for exponential growth. </p>
+
+                            <p>Our online community metrics highlight our unique brand equity with a significant presence across TikTok (67k followers), YouTube (14k subscribers), and Discord ( 5.82k members).</p>  
+                        
+                            <p>Backed by industry-leading firms such as Boost VC, Founders Inc., and Earthling VC, we are currently targeting a capital infusion of $700,000 through a $6 million post-money SAFE to accelerate our development. Red Team Interactive presents a compelling opportunity for investors looking to stake a claim in the promising realm of VR gaming.</p>
+                        </div>
+                      
                     </div>
-                    <div class="container  my-auto">
+                    <div class="container my-auto">
                         <div class="row my-auto d-flex justify-content-around">
                           
-                            <div class="col-lg-3 " data-aos="fade-left" data-aos-duration="1000">
+                            <div class="col-lg-4 col-xl-3 text-center" data-aos="fade-left" data-aos-duration="1000">
                                 <img class="logo img-fluid" src="./images/CameronProfessional.jpg" alt="">
                                 <br>
                                 <p class="text-center logotext">Cameron<br>Churchill</p>
                                 <p class="text-center">CTO and Game Developer</p>
                             </div>
 
-                            <div class="col-lg-3 " data-aos="fade-left" data-aos-duration="1000">
+                            <div class="col-lg-4 col-xl-3 text-center" data-aos="fade-left" data-aos-duration="1000">
                                 <img class="logo img-fluid" src="./images/DarioProfessional.jpg" alt="">
                                 <br>
                                 <p class="text-center logotext">Dario<br>Zuluaga</p>
                                 <p class="text-center">Lead Technical Artist</p>
                             </div>
 
-                            <div class="col-lg-3 " data-aos="fade-left" data-aos-duration="1000">
+                            <div class="col-lg-4 col-xl-3 text-center" data-aos="fade-left" data-aos-duration="1000">
                                 <img class="logo img-fluid" src="./images/BenProfessional.jpg" alt="">
                                 <br>
                                 <p class="text-center logotext">Benjamin<br>Duncan</p>
@@ -143,19 +142,22 @@
 
                         </div>
                         
-                        </div>
-
-
-
-                        <input type="button" class="btn2 mt-5" value="Contact Us"
-                            onclick="location.href='#contact_section'" data-aos="fade" data-aos-duration="1000">
-
-
-
                     </div>
 
+
+
+
+                       
+
+
+
                 </div>
+                    <div class="text-center">
+                        <input type="button" class="btn2 mt-5 " value="Contact Us"
+                        onclick="location.href='#contact_section'" data-aos="fade" data-aos-duration="1000">
+                    </div>
             </div>
+            
         </div>
     </section>
 
