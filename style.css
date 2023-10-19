@@ -164,7 +164,7 @@ html,body
         display:none;
     }
 }
-@media (min-width:481px) and (max-width: 870px){
+@media (min-width:481px) and (max-width: 900px){
     .redTeamLogo{
         width: 200px !important;
         text-align: center !important;
@@ -250,7 +250,7 @@ h1 {
     border-radius: 4px;
 }
 
-/* SERVICES SECTION */
+/* SOCIALS SECTION */
 
 .socials h1 {
     color: #D9D9D9;
@@ -274,8 +274,8 @@ h1 {
 }
 
 .card .circle {
-    height: 70px;
-    width: 70px;
+    height: 80px;
+    width: 80px;
     font-weight: 70px;
     background-color: #1d1d1d ;
     color: #D9D9D9 ;
@@ -397,7 +397,25 @@ h1 {
 }
 
 footer {
-    background-color: #1d1d1d;
+    background-color: #461610;
     color: #D9D9D9;
+    -webkit-box-shadow: 0px -9px 18px -11px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px -9px 18px -11px rgba(0,0,0,0.75);
+    box-shadow: 0px -9px 18px -11px rgba(0,0,0,0.75);
 }
 
+
+@media  (max-width: 900px){
+
+    .Footer_Text{
+        font-size: small;
+    }
+}
+
+
+@media  (max-width: 700px){
+
+    .Footer_Text{
+        font-size: xx-small;
+    }
+}
