@@ -405,7 +405,7 @@ footer {
 }
 
 
-@media  (max-width: 900px){
+@media (min-width: 700px) and (max-width: 900px){
 
     .Footer_Text{
         font-size: small;
